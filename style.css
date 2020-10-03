@@ -1,0 +1,348 @@
+html{
+    font-family: "Lato","Helvetica neue","Helvetica","Arial",sans-serif;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    
+}
+
+p{
+    color: #5d6660;
+    font-family: "Lato","Helvetica neue","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header{
+    height: 80px;
+    background-color: #ffffff;
+}
+
+#header-container{
+    width: 75%;
+    margin: auto;
+}
+
+.col-3{
+    width: 33%;
+    float: left;
+}
+
+.logo{
+    padding-top: 30px;
+}
+
+.menu{
+    margin-top: 32px;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline;
+    color: #8e8e8e;
+    padding-right: 30px;
+}
+
+.getStartedBTN{
+    background-color: #6DC77A;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 26px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 17px;
+    float: right;
+}
+
+#top-section-main{
+    background-image: url(images/Friends.jpg);
+    background-size: auto;
+    height: 740px;
+    border: none;
+}
+
+#top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#top-section-content h1{
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 15px;
+    margin: 0;
+}
+
+#top-section-content p{
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.play-BTN{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px 0 110px 0;
+}
+
+.main-form h6{
+    font-family: sans-serif;
+    font-size: .9em;
+    font-weight: 200;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-form input{
+    margin: 0;
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 200;
+    border: none;
+}
+
+.main-form button{
+    margin: 0;
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 200;
+    border: none;
+    background-color: #6DC77A;
+    color: #ffffff;
+}
+
+#feature-section{
+    padding-top: 100px
+}
+
+#feature-section h1{
+    width: 70%;
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+}
+
+#feature-section h1 span{
+    background-color: #6dc77a;
+    color: white;
+    padding: 2px;
+}
+
+.feature-section-content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.feature-section-content .col-3{
+    padding: 10px;
+    width: 30%;
+}
+
+.feature-section-content .col-3 img{
+    width: 100%;
+}
+
+.feature-section-content .col-3 p{
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+
+.col-2{
+    float: left;
+    width: 48%;
+}
+
+#showcase1-container{
+    width: 100%;
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    clear: both;
+}
+
+.showcase{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.showcase1-image{
+    width: 100%;
+}
+
+.feature-text{
+    padding-top: 300px;
+    padding-left: 50px;
+}
+
+.section-title{
+    width: 70%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.section-content{
+    width: 70%;
+    margin: auto;
+    line-height: 1.5em;
+    padding: 20px 10px 10px 10px;
+}
+
+#showcase2-container{
+    width: 100%;
+    padding-top: 60px;
+    clear: both;
+}
+
+.col-1{
+    width: 80%;
+    margin: auto;
+}
+
+#call-to-action{
+    background-image: url(images/darkdesk.png);
+    background-position: 50% 50%;
+    padding-bottom: 45px;
+}
+
+.action-title{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    font-family: sans-serif;
+/*    font-weight: 100;*/
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+.col-1 p{
+    font-size: 1.6em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.Try-BTN{
+    background-color: #6dc77a;
+    color: white;
+    font-size: 1em;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 30px 90px;
+}
+
+.Try-BTN:hover{
+    background-color: #5cbf2a;
+}
+
+.margin{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.Signup-Form{
+    background-color: #f6faf8;
+    margin-right: 200px;
+    padding: 0 50px 10px 50px;
+    margin-top: 50px;
+}
+
+.Signup-Form h6{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+/*    padding-bottom: 40px;*/
+/*    margin: 0;*/
+}
+
+.Signup-Form input{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.Signup-Form button{
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    background-color: #6dc77a;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.Signup-Form button:hover{
+    background-color: #5cbf2a;
+}
+
+footer{
+    background-image: url(images/footerbg.png);
+    clear: both;
+    height: 500px;
+    background-position: 50% 50%;
+}
+
+.social-footer{
+    width: 33%;
+    float: left;
+    height: 40%;
+}
+
+.social-footer:hover{
+    background-color: black;
+    opacity: .5;
+}
+
+.center{
+    width: 50px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.footer-logo{
+    height: 18px;
+    width: 143px;
+}
+
+.copyright{
+    color: white;
+    font-size: .9em;
+    text-align: center;
+    display: block;.
+    padding-top: 15px;
+}
